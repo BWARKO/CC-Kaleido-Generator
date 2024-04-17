@@ -10,7 +10,7 @@ function setup() {
   seed = prompt("Please enter a seed for your kaleidoscope:"); // Seed the pseudo-random generator again had chatgpt help me understand how to do this
   // Create saving button
   saveButton = createButton('Save Image');
-  saveButton.position(400, 10);
+  saveButton.position(850, 10);
   saveButton.mousePressed(saveKaleidoscopeImage);
 
   drawKaleidoscope(); // Draw seed kaleido
